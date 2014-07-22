@@ -1,7 +1,9 @@
 
 body {
   background-image: url("../pattern2.png");
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+/*  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+*/
+  font-family: 'Open Sans', sans-serif;
 }
 
 .background{
@@ -22,6 +24,12 @@ img{
   border-color: #545454;
   margin-top: 1em;
 }
+
+ul{
+   list-style-type:none;
+/*   text-align: justify;
+   text-align: center;
+*/}
 
 .link:hover{
   color: orange;
@@ -54,15 +62,4 @@ img{
 .icon:hover{
    background-color: orange;
 }
-/*.contact-icons {
-background-color: rgba(255, 255, 255, .5);
-padding: 10px;
-text-align: center;
-}
 
-.contact-icons > li {
-display: inline;
-font-size: 1.3em;
-padding: 0 .5em;
-}
-*/

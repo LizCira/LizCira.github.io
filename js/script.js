@@ -46,5 +46,9 @@ $(function(){
     }, 750);
   });
 
+  $(".link").click(function () {
+      $(".link").css("color", "");
+      $(this).css("color", "orange");
+    });
 
 })
