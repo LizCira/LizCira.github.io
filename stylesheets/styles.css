@@ -27,9 +27,7 @@ img{
 
 ul{
    list-style-type:none;
-/*   text-align: justify;
-   text-align: center;
-*/}
+}
 
 .link:hover{
   color: orange;
@@ -49,7 +47,6 @@ ul{
   background-color: rgba(128, 128, 128, 0.4);
 }
 
-
 .icon{
   background-color: rgba(128, 128, 128, 0.4);
   margin-right: 1em;
@@ -63,3 +60,16 @@ ul{
    background-color: orange;
 }
 
+.wdi{
+  margin-top: 3em;
+}
+
+.project{
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: #545454;
+  text-align: center;
+  margin-top: 1em;
+  background-color: rgba(128, 128, 128, 0.4);
+}
