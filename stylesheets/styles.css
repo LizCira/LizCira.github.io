@@ -1,31 +1,29 @@
+
 body {
-  background-image: url("../pattern.png");
+  background-image: url("../pattern2.png");
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
 }
 
-#test{
+.background{
   border-style: solid;
   border-radius: 15px;
   border-width: 6px;
   border-color: #545454;
-  margin: auto;
-  height: auto;
-  width: 500px;
   text-align: center;
-  color: ivory;
+  margin-top: 1em;
   background-color: rgba(128, 128, 128, 0.7);
 }
 
-#me{
+
+img{
   border-style: solid;
   border-radius: 15px;
   border-width: 6px;
   border-color: #545454;
-  margin: auto;
-  height: auto;
-  width: 500px;
-  text-align: center;
-  color: ivory;
-  background-color: rgba(128, 128, 128, 0.7);
-  margin-top: 20px;
+  margin-top: 1em;
+}
+
+.link:hover
+{
+  color: orange;
 }
