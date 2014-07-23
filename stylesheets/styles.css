@@ -33,6 +33,10 @@ ul{
   color: orange;
 }
 
+h4:hover{
+  color: orange;
+}
+
 #github{
   margin-left: 1.7em;
 }
@@ -74,6 +78,24 @@ ul{
   background-color: rgba(128, 128, 128, 0.4);
 }
 
+img#rabbit{
+  border-width: 3px;
+}
+
 #bunny{
   display:none;
+}
+
+a{
+  text-decoration: underline;
+}
+
+.tech ul li{
+    display: inline-block;
+    background: none repeat scroll 0% 0% #730018;
+    color: #FFF;
+    padding: 0.5em;
+    margin: 0px 0.35em 0.6em 0px;
+    font-size: 0.6em;
+    border-radius: 0.7em;
 }
