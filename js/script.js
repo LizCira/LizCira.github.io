@@ -3,10 +3,11 @@ $(function(){
   $('.projects').hide();
   $('.contact').hide();
   $('.resume').hide();
+  $('#home').hide();
 
   $('#projects').click(function(e){
     if ($('.projects').is(':visible')){
-      $('.projects').toggle(750);
+      // $('.projects').toggle(750);
     } else {
       $('.introElements').hide(500);
       $('.resume').hide(500);
@@ -20,7 +21,7 @@ $(function(){
 
   $('#contact').click(function(e){
     if ($('.contact').is(':visible')){
-      $('.contact').toggle(750);
+      // $('.contact').toggle(750);
     } else {
       $('.introElements').hide(500);
       $('.projects').hide(500);
@@ -34,7 +35,7 @@ $(function(){
 
   $('#resume').click(function(e){
     if ($('.resume').is(':visible')){
-      $('.resume').toggle(750);
+      // $('.resume').toggle(750);
     } else {
       $('.introElements').hide(500);
       $('.projects').hide(500);
@@ -49,7 +50,16 @@ $(function(){
   $(".link").click(function () {
       $(".link").css("color", "");
       $(this).css("color", "orange");
+      $('#home').show();
     });
+
+  $('#home').click(function (){
+    $('.introElements').show(500);
+    $('.projects').hide(500);
+    $('.contact').hide(500);
+    $('.resume').hide(500);
+    $('#home').hide();
+  })
 
    $('#rightPanel').on('mouseenter', function () {
        $('#bunny').show();
@@ -58,10 +68,5 @@ $(function(){
        $('#bunny').hide();
         $('#randomWords').show();
     });
-    // $("#rightPanel").hover(function() {
-    //   // console.log("hovering")
-    //   console.log(this)
-    //   $(this).attr('src', 'bunny.gif');
-    // });
 
 })
