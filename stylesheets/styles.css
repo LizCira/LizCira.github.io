@@ -73,3 +73,7 @@ ul{
   margin-top: 1em;
   background-color: rgba(128, 128, 128, 0.4);
 }
+
+#bunny{
+  display:none;
+}

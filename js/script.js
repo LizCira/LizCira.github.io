@@ -51,4 +51,17 @@ $(function(){
       $(this).css("color", "orange");
     });
 
+   $('#rightPanel').on('mouseenter', function () {
+       $('#bunny').show();
+       $('#randomWords').hide();
+   }).on('mouseleave', function () {
+       $('#bunny').hide();
+        $('#randomWords').show();
+    });
+    // $("#rightPanel").hover(function() {
+    //   // console.log("hovering")
+    //   console.log(this)
+    //   $(this).attr('src', 'bunny.gif');
+    // });
+
 })
