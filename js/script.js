@@ -1,13 +1,15 @@
+hoverColor = "orange"
+
 $(function(){
 
   $('.projects').hide();
   $('.contact').hide();
   $('.resume').hide();
   $('#home').hide();
+  $('#navPadding').hide();
 
   $('#projects').click(function(e){
     if ($('.projects').is(':visible')){
-      // $('.projects').toggle(750);
     } else {
       $('.introElements').hide(500);
       $('.resume').hide(500);
@@ -27,6 +29,7 @@ $(function(){
       $('.projects').hide(500);
       $('.resume').hide(500);
       $('.contact').toggle(750);
+      $('#navPadding').show();
     }
     $('html, body').animate({
       scrollTop: $('.introElements').offset().top
@@ -49,7 +52,7 @@ $(function(){
 
   $(".link").click(function () {
       $(".link").css("color", "");
-      $(this).css("color", "orange");
+      $(this).css("color", hoverColor);
       $('#home').show();
     });
 
