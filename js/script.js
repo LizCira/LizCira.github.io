@@ -72,4 +72,10 @@ $(function(){
         $('#randomWords').show();
     });
 
+   $('.screenshot').on('mouseenter', function () {
+       $(this).addClass( "pulse" );
+   }).on('mouseleave', function () {
+       $( this ).removeClass( "pulse" );
+    });
+
 })

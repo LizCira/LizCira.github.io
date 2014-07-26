@@ -40,14 +40,17 @@ h5:hover{
   margin-left: 1.7em;
 }
 
-#phone{
-  border-style: solid;
+.phone{
   border-radius: 15px;
-  border-width: 3px;
   border-color: #545454;
   text-align: center;
   margin-top: 1em;
   background-color: rgba(128, 128, 128, 0.4);
+}
+
+#name{
+  margin-bottom: -1em;
+
 }
 
 .icon{
@@ -93,9 +96,7 @@ a{
 
 .tech ul li{
     display: inline-block;
-    background: none repeat scroll 0% 0%
-
-#EE3233;
+    background: none repeat scroll 0% 0% #EE3233;
     color: #FFF;
     padding: 0.5em;
     margin: 0px 0.35em 0.6em 0px;
